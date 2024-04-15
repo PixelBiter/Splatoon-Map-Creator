@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bdlet763ndlrl"
+path="res://.godot/imported/UBlock.obj-e608880da4daf6869834b0a2b1e70581.mesh"
+
+[deps]
+
+files=["res://.godot/imported/UBlock.obj-e608880da4daf6869834b0a2b1e70581.mesh"]
+
+source_file="res://EditorResources/GridMap/UninkableSlopeShort/UBlock.obj"
+dest_files=["res://.godot/imported/UBlock.obj-e608880da4daf6869834b0a2b1e70581.mesh", "res://.godot/imported/UBlock.obj-e608880da4daf6869834b0a2b1e70581.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

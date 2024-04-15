@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://1ci4yopnbf8"
+path="res://.godot/imported/ClamBump.obj-c98a15bb6a84f62ae3e263b17bdd5c26.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ClamBump.obj-c98a15bb6a84f62ae3e263b17bdd5c26.mesh"]
+
+source_file="res://EditorResources/GridMap/Modes/ClamBump.obj"
+dest_files=["res://.godot/imported/ClamBump.obj-c98a15bb6a84f62ae3e263b17bdd5c26.mesh", "res://.godot/imported/ClamBump.obj-c98a15bb6a84f62ae3e263b17bdd5c26.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

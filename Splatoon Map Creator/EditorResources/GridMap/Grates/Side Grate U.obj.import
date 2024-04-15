@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cqglyakimt22o"
+path="res://.godot/imported/Side Grate U.obj-707f3dbff975c777bb5e650401b4443f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Side Grate U.obj-707f3dbff975c777bb5e650401b4443f.mesh"]
+
+source_file="res://EditorResources/GridMap/Grates/Side Grate U.obj"
+dest_files=["res://.godot/imported/Side Grate U.obj-707f3dbff975c777bb5e650401b4443f.mesh", "res://.godot/imported/Side Grate U.obj-707f3dbff975c777bb5e650401b4443f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

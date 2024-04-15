@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c6o4ievbdecuh"
+path="res://.godot/imported/Road Unink.obj-798acca9c0f7ee14d5aaf3a523b0855f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Road Unink.obj-798acca9c0f7ee14d5aaf3a523b0855f.mesh"]
+
+source_file="res://3D Models Usable/Road Unink.obj"
+dest_files=["res://.godot/imported/Road Unink.obj-798acca9c0f7ee14d5aaf3a523b0855f.mesh", "res://.godot/imported/Road Unink.obj-798acca9c0f7ee14d5aaf3a523b0855f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,145 @@
+[gd_scene load_steps=6 format=3 uid="uid://bsftmxc3yyhmb"]
+
+[ext_resource type="Script" path="res://in_app_editor.gd" id="1_4d1po"]
+[ext_resource type="MeshLibrary" uid="uid://dsb0jcodo01pv" path="res://EditorResources/MapEditor.tres" id="2_frrel"]
+[ext_resource type="ArrayMesh" uid="uid://dpy1pj5i1neho" path="res://EditorResources/SelectionCube.obj" id="3_j82pc"]
+[ext_resource type="Script" path="res://Camera3D.gd" id="4_28gyk"]
+[ext_resource type="ArrayMesh" uid="uid://dh8jgle2ued2d" path="res://EditorResources/GridMap/Basic/CornerBlock.obj" id="5_e0l8g"]
+
+[node name="In-App Editor" type="Node3D"]
+script = ExtResource("1_4d1po")
+
+[node name="BuiltMap" type="GridMap" parent="."]
+mesh_library = ExtResource("2_frrel")
+cell_size = Vector3(0.3, 0.3, 0.3)
+metadata/_editor_floor_ = Vector3(0, 0, 0)
+
+[node name="Selector" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15, 0, 0.15)
+mesh = ExtResource("3_j82pc")
+
+[node name="Cams" type="Node3D" parent="Selector"]
+transform = Transform3D(1, 0, 0, 0, 0.906308, 0.422618, 0, -0.422618, 0.906308, 0.314977, 6.43749, 5.37942)
+script = ExtResource("4_28gyk")
+
+[node name="Camera" type="Camera3D" parent="Selector/Cams"]
+current = true
+fov = 90.0
+size = 60.0
+
+[node name="UI" type="Node3D" parent="Selector/Cams/Camera"]
+
+[node name="UIBlock" type="MeshInstance3D" parent="Selector/Cams/Camera/UI"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 1.49012e-08, 0, -1.49012e-08, 0.5, 0, -1, -2)
+mesh = ExtResource("5_e0l8g")
+
+[node name="UIBlock2" type="MeshInstance3D" parent="Selector/Cams/Camera/UI"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 3.72529e-08, 0, -3.72529e-08, 0.5, -0.75, -1.5, -2)
+mesh = ExtResource("5_e0l8g")
+
+[node name="UIBlock3" type="MeshInstance3D" parent="Selector/Cams/Camera/UI"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 2.98023e-08, 0, -2.98023e-08, 0.5, 0.75, -1.5, -2)
+mesh = ExtResource("5_e0l8g")
+
+[node name="UIFlat" type="Control" parent="Selector/Cams/Camera/UI"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="OptionButton" type="OptionButton" parent="Selector/Cams/Camera/UI/UIFlat"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 21.0
+offset_right = 463.0
+offset_bottom = 77.0
+item_count = 14
+selected = 0
+popup/item_0/text = "Basic"
+popup/item_0/id = 0
+popup/item_1/text = "Short"
+popup/item_1/id = 1
+popup/item_2/text = "Short Triangle"
+popup/item_2/id = 2
+popup/item_3/text = "Slope"
+popup/item_3/id = 3
+popup/item_4/text = "Slope Short"
+popup/item_4/id = 4
+popup/item_5/text = "Triangle"
+popup/item_5/id = 5
+popup/item_6/text = "Uninkable"
+popup/item_6/id = 6
+popup/item_7/text = "Uninkable Short"
+popup/item_7/id = 7
+popup/item_8/text = "Uninkable Short Triangle"
+popup/item_8/id = 8
+popup/item_9/text = "Uninkable Slope"
+popup/item_9/id = 9
+popup/item_10/text = "Uninkable Slope Short"
+popup/item_10/id = 10
+popup/item_11/text = "Uninkable Triangle"
+popup/item_11/id = 11
+popup/item_12/text = "Grates"
+popup/item_12/id = 12
+popup/item_13/text = "Modes"
+popup/item_13/id = 13
+
+[node name="Label" type="Label" parent="Selector/Cams/Camera/UI/UIFlat"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 652.0
+offset_right = 300.0
+offset_bottom = 1068.0
+text = "Camera Controls:
+WASD - Move
+SHIFT - Release/Capture Mouse
+TAB - Change Camera Views
+COMMA  , - Toggle HUD + Lights
+QUOTE LEFT ` - Reset Position
+
+Editor Controls:
+ARROW KEYS - Move Selection Space
+PAGE UP/DOWN - Change Floors
+SPACE - Place
+ALT - DELETE
+ENTER - SAVE
+V/B - Change Direction
+C/N - Change Block
+X/M - Change Group"
+
+[node name="Lights" type="Node3D" parent="."]
+
+[node name="Editor Lights" type="Node3D" parent="Lights"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Lights/Editor Lights"]
+transform = Transform3D(1, 0, 0, 0, 0.965926, 0.258819, 0, -0.258819, 0.965926, 0, 0, 0)
+shadow_enabled = true
+
+[node name="DirectionalLight3D2" type="DirectionalLight3D" parent="Lights/Editor Lights"]
+transform = Transform3D(-4.37114e-08, -0.258819, 0.965926, 0, 0.965926, 0.258819, -1, 1.13133e-08, -4.2222e-08, 0, 0, 0)
+shadow_enabled = true
+
+[node name="DirectionalLight3D3" type="DirectionalLight3D" parent="Lights/Editor Lights"]
+transform = Transform3D(-1, 2.26267e-08, -8.44439e-08, 0, 0.965926, 0.258819, 8.74228e-08, 0.258819, -0.965926, 0, 0, 0)
+shadow_enabled = true
+
+[node name="DirectionalLight3D4" type="DirectionalLight3D" parent="Lights/Editor Lights"]
+transform = Transform3D(1.19249e-08, 0.258819, -0.965926, 0, 0.965926, 0.258819, 1, -3.08639e-09, 1.15186e-08, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Lights" type="Node3D" parent="Lights"]
+visible = false
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Lights/Lights"]
+transform = Transform3D(1, 0, 0, 0, 0.965926, 0.258819, 0, -0.258819, 0.965926, 0, 0, 0)
+
+[node name="DirectionalLight3D2" type="DirectionalLight3D" parent="Lights/Lights"]
+transform = Transform3D(-4.37114e-08, -0.258819, 0.965926, 0, 0.965926, 0.258819, -1, 1.13133e-08, -4.2222e-08, 0, 0, 0)
+
+[node name="DirectionalLight3D3" type="DirectionalLight3D" parent="Lights/Lights"]
+transform = Transform3D(-1, 2.26267e-08, -8.44439e-08, 0, 0.965926, 0.258819, 8.74228e-08, 0.258819, -0.965926, 0, 0, 0)
+
+[node name="DirectionalLight3D4" type="DirectionalLight3D" parent="Lights/Lights"]
+transform = Transform3D(1.19249e-08, 0.258819, -0.965926, 0, 0.965926, 0.258819, 1, -3.08639e-09, 1.15186e-08, 0, 0, 0)
+
+[connection signal="item_selected" from="Selector/Cams/Camera/UI/UIFlat/OptionButton" to="." method="_on_option_button_item_selected"]

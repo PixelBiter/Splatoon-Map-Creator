@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cwyu0kbbj8434"
+path="res://.godot/imported/SideBlockA.obj-299a79930623769508edc3a53f0adfe2.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SideBlockA.obj-299a79930623769508edc3a53f0adfe2.mesh"]
+
+source_file="res://EditorResources/GridMap/ShortTriangle/SideBlockA.obj"
+dest_files=["res://.godot/imported/SideBlockA.obj-299a79930623769508edc3a53f0adfe2.mesh", "res://.godot/imported/SideBlockA.obj-299a79930623769508edc3a53f0adfe2.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

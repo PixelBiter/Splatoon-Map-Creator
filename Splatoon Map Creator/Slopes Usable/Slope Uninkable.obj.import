@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://pm2nbxmyxt5v"
+path="res://.godot/imported/Slope Uninkable.obj-04f69356f01bba31e67eebeb05a2b337.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Slope Uninkable.obj-04f69356f01bba31e67eebeb05a2b337.mesh"]
+
+source_file="res://Slopes Usable/Slope Uninkable.obj"
+dest_files=["res://.godot/imported/Slope Uninkable.obj-04f69356f01bba31e67eebeb05a2b337.mesh", "res://.godot/imported/Slope Uninkable.obj-04f69356f01bba31e67eebeb05a2b337.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

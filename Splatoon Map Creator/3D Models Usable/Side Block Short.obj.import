@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d2whxw2n8wob7"
+path="res://.godot/imported/Side Block Short.obj-c47e941c326170d647017cd8104286e5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Side Block Short.obj-c47e941c326170d647017cd8104286e5.mesh"]
+
+source_file="res://3D Models Usable/Side Block Short.obj"
+dest_files=["res://.godot/imported/Side Block Short.obj-c47e941c326170d647017cd8104286e5.mesh", "res://.godot/imported/Side Block Short.obj-c47e941c326170d647017cd8104286e5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

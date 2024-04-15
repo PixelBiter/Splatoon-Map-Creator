@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ckwuqlyddxv50"
+path="res://.godot/imported/MiddleBlock.obj-4742838467d6e57f56f57ca0cdcd0273.mesh"
+
+[deps]
+
+files=["res://.godot/imported/MiddleBlock.obj-4742838467d6e57f56f57ca0cdcd0273.mesh"]
+
+source_file="res://EditorResources/GridMap/Short/MiddleBlock.obj"
+dest_files=["res://.godot/imported/MiddleBlock.obj-4742838467d6e57f56f57ca0cdcd0273.mesh", "res://.godot/imported/MiddleBlock.obj-4742838467d6e57f56f57ca0cdcd0273.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

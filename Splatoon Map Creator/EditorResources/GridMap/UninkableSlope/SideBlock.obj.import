@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dvrus58haek16"
+path="res://.godot/imported/SideBlock.obj-89d9e89647e48af9ea875bb324e13dbb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SideBlock.obj-89d9e89647e48af9ea875bb324e13dbb.mesh"]
+
+source_file="res://EditorResources/GridMap/UninkableSlope/SideBlock.obj"
+dest_files=["res://.godot/imported/SideBlock.obj-89d9e89647e48af9ea875bb324e13dbb.mesh", "res://.godot/imported/SideBlock.obj-89d9e89647e48af9ea875bb324e13dbb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

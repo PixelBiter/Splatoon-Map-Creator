@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bmna4ckf5p66u"
+path="res://.godot/imported/Side Block Unink.obj-1b4099829827dabe4f4daef789c7a053.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Side Block Unink.obj-1b4099829827dabe4f4daef789c7a053.mesh"]
+
+source_file="res://3D Models Usable/Side Block Unink.obj"
+dest_files=["res://.godot/imported/Side Block Unink.obj-1b4099829827dabe4f4daef789c7a053.mesh", "res://.godot/imported/Side Block Unink.obj-1b4099829827dabe4f4daef789c7a053.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

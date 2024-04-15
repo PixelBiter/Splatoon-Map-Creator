@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cqgbflguu75yf"
+path="res://.godot/imported/U-Turn Block.obj-662e93bd85cc78855fb374aabc944006.mesh"
+
+[deps]
+
+files=["res://.godot/imported/U-Turn Block.obj-662e93bd85cc78855fb374aabc944006.mesh"]
+
+source_file="res://3D Models Usable/U-Turn Block.obj"
+dest_files=["res://.godot/imported/U-Turn Block.obj-662e93bd85cc78855fb374aabc944006.mesh", "res://.godot/imported/U-Turn Block.obj-662e93bd85cc78855fb374aabc944006.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

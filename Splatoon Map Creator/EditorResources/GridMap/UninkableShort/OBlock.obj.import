@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://djg3vq2lcasvl"
+path="res://.godot/imported/OBlock.obj-b2252e6b8f1904de6568092115a9379c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/OBlock.obj-b2252e6b8f1904de6568092115a9379c.mesh"]
+
+source_file="res://EditorResources/GridMap/UninkableShort/OBlock.obj"
+dest_files=["res://.godot/imported/OBlock.obj-b2252e6b8f1904de6568092115a9379c.mesh", "res://.godot/imported/OBlock.obj-b2252e6b8f1904de6568092115a9379c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

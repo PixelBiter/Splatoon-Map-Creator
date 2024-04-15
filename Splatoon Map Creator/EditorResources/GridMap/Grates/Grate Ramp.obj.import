@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bja3mqhxktsp8"
+path="res://.godot/imported/Grate Ramp.obj-f5b9b56455ac466cf2f8230aeaac0b57.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Grate Ramp.obj-f5b9b56455ac466cf2f8230aeaac0b57.mesh"]
+
+source_file="res://EditorResources/GridMap/Grates/Grate Ramp.obj"
+dest_files=["res://.godot/imported/Grate Ramp.obj-f5b9b56455ac466cf2f8230aeaac0b57.mesh", "res://.godot/imported/Grate Ramp.obj-f5b9b56455ac466cf2f8230aeaac0b57.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://njg34r7p13qk"]
+
+[ext_resource type="Texture2D" uid="uid://27x5lfiyj8m0" path="res://Sprite-0001.png" id="1_wx3hl"]
+[ext_resource type="Script" path="res://layer.gd" id="2_skg07"]
+
+[node name="Layer" type="Sprite3D"]
+transform = Transform3D(9999, 0, 0, 0, -0.00043707, -1, 0, 9999, -4.37114e-08, 0, 0, 0)
+texture = ExtResource("1_wx3hl")
+script = ExtResource("2_skg07")

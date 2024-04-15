@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dt4f0j3qym36"
+path="res://.godot/imported/CornerBlockC.obj-30ea3cb563d8ccd73980ec3b1bacc18d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/CornerBlockC.obj-30ea3cb563d8ccd73980ec3b1bacc18d.mesh"]
+
+source_file="res://EditorResources/GridMap/SlopeShort/CornerBlockC.obj"
+dest_files=["res://.godot/imported/CornerBlockC.obj-30ea3cb563d8ccd73980ec3b1bacc18d.mesh", "res://.godot/imported/CornerBlockC.obj-30ea3cb563d8ccd73980ec3b1bacc18d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

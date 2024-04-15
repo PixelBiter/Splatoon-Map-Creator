@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dspixrncbqp21"
+path="res://.godot/imported/SideBlockA.obj-9a0e6360162c0b173e457c3b26a47580.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SideBlockA.obj-9a0e6360162c0b173e457c3b26a47580.mesh"]
+
+source_file="res://EditorResources/GridMap/SlopeShort/SideBlockA.obj"
+dest_files=["res://.godot/imported/SideBlockA.obj-9a0e6360162c0b173e457c3b26a47580.mesh", "res://.godot/imported/SideBlockA.obj-9a0e6360162c0b173e457c3b26a47580.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

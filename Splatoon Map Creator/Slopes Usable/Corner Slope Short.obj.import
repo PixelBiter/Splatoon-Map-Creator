@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cdx84mudv6m7i"
+path="res://.godot/imported/Corner Slope Short.obj-3f8c1430a9e18bf748bfe7dc063306ad.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Corner Slope Short.obj-3f8c1430a9e18bf748bfe7dc063306ad.mesh"]
+
+source_file="res://Slopes Usable/Corner Slope Short.obj"
+dest_files=["res://.godot/imported/Corner Slope Short.obj-3f8c1430a9e18bf748bfe7dc063306ad.mesh", "res://.godot/imported/Corner Slope Short.obj-3f8c1430a9e18bf748bfe7dc063306ad.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

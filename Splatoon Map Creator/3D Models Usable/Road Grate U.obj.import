@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cmusy5syysjhk"
+path="res://.godot/imported/Road Grate U.obj-c4950c97909b4da5b97751de3f475705.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Road Grate U.obj-c4950c97909b4da5b97751de3f475705.mesh"]
+
+source_file="res://3D Models Usable/Road Grate U.obj"
+dest_files=["res://.godot/imported/Road Grate U.obj-c4950c97909b4da5b97751de3f475705.mesh", "res://.godot/imported/Road Grate U.obj-c4950c97909b4da5b97751de3f475705.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

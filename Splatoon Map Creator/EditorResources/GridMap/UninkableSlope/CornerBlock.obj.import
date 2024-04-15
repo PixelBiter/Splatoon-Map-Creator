@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://da4lb3hgcmoro"
+path="res://.godot/imported/CornerBlock.obj-b244968837b4244be05725357b42ecb6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/CornerBlock.obj-b244968837b4244be05725357b42ecb6.mesh"]
+
+source_file="res://EditorResources/GridMap/UninkableSlope/CornerBlock.obj"
+dest_files=["res://.godot/imported/CornerBlock.obj-b244968837b4244be05725357b42ecb6.mesh", "res://.godot/imported/CornerBlock.obj-b244968837b4244be05725357b42ecb6.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

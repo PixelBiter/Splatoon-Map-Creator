@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bo0nlpoqtduep"
+path="res://.godot/imported/Middle Slope Short.obj-09d7cff0f0386b7e0baa0d377041104b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Middle Slope Short.obj-09d7cff0f0386b7e0baa0d377041104b.mesh"]
+
+source_file="res://Slopes Usable/Middle Slope Short.obj"
+dest_files=["res://.godot/imported/Middle Slope Short.obj-09d7cff0f0386b7e0baa0d377041104b.mesh", "res://.godot/imported/Middle Slope Short.obj-09d7cff0f0386b7e0baa0d377041104b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

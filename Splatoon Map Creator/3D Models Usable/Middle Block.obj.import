@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cax102uhyro2m"
+path="res://.godot/imported/Middle Block.obj-b325f11eca9e83625f5a65d3a0d7e1e3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Middle Block.obj-b325f11eca9e83625f5a65d3a0d7e1e3.mesh"]
+
+source_file="res://3D Models Usable/Middle Block.obj"
+dest_files=["res://.godot/imported/Middle Block.obj-b325f11eca9e83625f5a65d3a0d7e1e3.mesh", "res://.godot/imported/Middle Block.obj-b325f11eca9e83625f5a65d3a0d7e1e3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

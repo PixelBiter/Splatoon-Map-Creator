@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://e0ie0w8iksu2"
+path="res://.godot/imported/UBlock.obj-ca5eb75749bd4c84e5d698bb89d8a20b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/UBlock.obj-ca5eb75749bd4c84e5d698bb89d8a20b.mesh"]
+
+source_file="res://EditorResources/GridMap/Basic/UBlock.obj"
+dest_files=["res://.godot/imported/UBlock.obj-ca5eb75749bd4c84e5d698bb89d8a20b.mesh", "res://.godot/imported/UBlock.obj-ca5eb75749bd4c84e5d698bb89d8a20b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

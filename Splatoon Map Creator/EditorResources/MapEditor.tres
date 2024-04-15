@@ -1,0 +1,662 @@
+[gd_resource type="MeshLibrary" load_steps=95 format=3 uid="uid://dsb0jcodo01pv"]
+
+[ext_resource type="ArrayMesh" uid="uid://dh8jgle2ued2d" path="res://EditorResources/GridMap/Basic/CornerBlock.obj" id="1_n6gt7"]
+[ext_resource type="ArrayMesh" uid="uid://cuglc65j54m5h" path="res://EditorResources/GridMap/Basic/MiddleBlock.obj" id="2_m22v6"]
+[ext_resource type="ArrayMesh" uid="uid://7s8rww5fcr5b" path="res://EditorResources/GridMap/Short/SideBlock.obj" id="3_1dkgj"]
+[ext_resource type="ArrayMesh" uid="uid://c82lbhxg7ft4v" path="res://EditorResources/GridMap/Short/UBlock.obj" id="4_8o5de"]
+[ext_resource type="ArrayMesh" uid="uid://daub8ydh0101b" path="res://EditorResources/GridMap/ShortTriangle/OBlock.obj" id="5_k675a"]
+[ext_resource type="ArrayMesh" uid="uid://bsg66ssrsvlr4" path="res://EditorResources/GridMap/ShortTriangle/SideBlock.obj" id="6_1tavl"]
+[ext_resource type="ArrayMesh" uid="uid://cwyu0kbbj8434" path="res://EditorResources/GridMap/ShortTriangle/SideBlockA.obj" id="7_xtjfr"]
+[ext_resource type="ArrayMesh" uid="uid://procqcohvehf" path="res://EditorResources/GridMap/ShortTriangle/SideBlockB.obj" id="8_8qiex"]
+[ext_resource type="ArrayMesh" uid="uid://bf8cyqhcbsbci" path="res://EditorResources/GridMap/Slope/CornerBlock.obj" id="9_6ov7b"]
+[ext_resource type="ArrayMesh" uid="uid://clmjxetway3hx" path="res://EditorResources/GridMap/Slope/CornerBlockA.obj" id="10_yahxu"]
+[ext_resource type="ArrayMesh" uid="uid://bf4dyd8f3bq2i" path="res://EditorResources/GridMap/Slope/CornerBlockB.obj" id="11_hudcu"]
+[ext_resource type="ArrayMesh" uid="uid://dh7dyooyd54f3" path="res://EditorResources/GridMap/Slope/CornerBlockC.obj" id="12_8fl4g"]
+[ext_resource type="ArrayMesh" uid="uid://ba67ptunk1hr5" path="res://EditorResources/GridMap/Basic/OBlock.obj" id="13_7wmnt"]
+[ext_resource type="ArrayMesh" uid="uid://c7npi1a7nf3uv" path="res://EditorResources/GridMap/Slope/MiddleBlock.obj" id="14_s5gcx"]
+[ext_resource type="ArrayMesh" uid="uid://bwt6wux1y070y" path="res://EditorResources/GridMap/Slope/OBlock.obj" id="15_cees3"]
+[ext_resource type="ArrayMesh" uid="uid://cauu860pcx2to" path="res://EditorResources/GridMap/Slope/RoadBlock.obj" id="16_28d1b"]
+[ext_resource type="ArrayMesh" uid="uid://ya5di6m4ll5x" path="res://EditorResources/GridMap/Slope/RoadBlockA.obj" id="17_k3y2t"]
+[ext_resource type="ArrayMesh" uid="uid://d2ybv6k5qalt5" path="res://EditorResources/GridMap/Slope/RoadBlockB.obj" id="18_j148i"]
+[ext_resource type="ArrayMesh" uid="uid://ckqgw0hmpmc21" path="res://EditorResources/GridMap/Slope/SideBlock.obj" id="19_lpnhn"]
+[ext_resource type="ArrayMesh" uid="uid://ccuckg73p4lp0" path="res://EditorResources/GridMap/Slope/SideBlockA.obj" id="20_8mxjr"]
+[ext_resource type="ArrayMesh" uid="uid://c1n7geoilm11o" path="res://EditorResources/GridMap/Slope/SideBlockB.obj" id="21_oysth"]
+[ext_resource type="ArrayMesh" uid="uid://pvbo5m883phn" path="res://EditorResources/GridMap/Slope/SideBlockC.obj" id="22_k3w3d"]
+[ext_resource type="ArrayMesh" uid="uid://bh8buaojx8aml" path="res://EditorResources/GridMap/Slope/UBlock.obj" id="23_7uyl5"]
+[ext_resource type="ArrayMesh" uid="uid://cllh7p3w8kdes" path="res://EditorResources/GridMap/Basic/RoadBlock.obj" id="24_o8gmh"]
+[ext_resource type="ArrayMesh" uid="uid://dpxt488wwx3vn" path="res://EditorResources/GridMap/SlopeShort/CornerBlock.obj" id="25_6moui"]
+[ext_resource type="ArrayMesh" uid="uid://dsb36ljhkls2f" path="res://EditorResources/GridMap/SlopeShort/CornerBlockA.obj" id="26_7y5yt"]
+[ext_resource type="ArrayMesh" uid="uid://dmpsubafxuiq6" path="res://EditorResources/GridMap/SlopeShort/CornerBlockB.obj" id="27_n70d3"]
+[ext_resource type="ArrayMesh" uid="uid://dt4f0j3qym36" path="res://EditorResources/GridMap/SlopeShort/CornerBlockC.obj" id="28_0aque"]
+[ext_resource type="ArrayMesh" uid="uid://dy00maurlfp28" path="res://EditorResources/GridMap/SlopeShort/MiddleBlock.obj" id="29_m0t3g"]
+[ext_resource type="ArrayMesh" uid="uid://34cfb8yifadh" path="res://EditorResources/GridMap/SlopeShort/OBlock.obj" id="30_25sp7"]
+[ext_resource type="ArrayMesh" uid="uid://c0gq0lpk1xw6c" path="res://EditorResources/GridMap/SlopeShort/RoadBlock.obj" id="31_5k6uk"]
+[ext_resource type="ArrayMesh" uid="uid://b116pda60774w" path="res://EditorResources/GridMap/SlopeShort/RoadBlockA.obj" id="32_hnv0c"]
+[ext_resource type="ArrayMesh" uid="uid://bobogia20li2x" path="res://EditorResources/GridMap/SlopeShort/RoadBlockB.obj" id="33_320xx"]
+[ext_resource type="ArrayMesh" uid="uid://wlnaixp4y3he" path="res://EditorResources/GridMap/SlopeShort/SideBlock.obj" id="34_rrkd2"]
+[ext_resource type="ArrayMesh" uid="uid://dcyrvg1d38lqy" path="res://EditorResources/GridMap/Basic/SideBlock.obj" id="35_c1ynx"]
+[ext_resource type="ArrayMesh" uid="uid://dspixrncbqp21" path="res://EditorResources/GridMap/SlopeShort/SideBlockA.obj" id="36_65q7c"]
+[ext_resource type="ArrayMesh" uid="uid://b5e5ox0slrljs" path="res://EditorResources/GridMap/SlopeShort/SideBlockB.obj" id="37_fi2m0"]
+[ext_resource type="ArrayMesh" uid="uid://b3gvkqy73teev" path="res://EditorResources/GridMap/SlopeShort/SideBlockC.obj" id="38_7h24u"]
+[ext_resource type="ArrayMesh" uid="uid://dwu5p6w35vudx" path="res://EditorResources/GridMap/SlopeShort/UBlock.obj" id="39_i1ij1"]
+[ext_resource type="ArrayMesh" uid="uid://d0e4my66utk85" path="res://EditorResources/GridMap/Triangle/OBlock.obj" id="40_vgkwv"]
+[ext_resource type="ArrayMesh" uid="uid://deysefjulw7hp" path="res://EditorResources/GridMap/Triangle/SideBlock.obj" id="41_qoicp"]
+[ext_resource type="ArrayMesh" uid="uid://t3l8trl6bc3y" path="res://EditorResources/GridMap/Triangle/SideBlockA.obj" id="42_r0i07"]
+[ext_resource type="ArrayMesh" uid="uid://b804gyg5niqfm" path="res://EditorResources/GridMap/Triangle/SideBlockB.obj" id="43_jm6f3"]
+[ext_resource type="ArrayMesh" uid="uid://btm56fsed1xx3" path="res://EditorResources/GridMap/Uninkable/CornerBlock.obj" id="44_owqdd"]
+[ext_resource type="ArrayMesh" uid="uid://dbs7mql15p5ou" path="res://EditorResources/GridMap/Uninkable/MiddleBlock.obj" id="45_3vu7x"]
+[ext_resource type="ArrayMesh" uid="uid://e0ie0w8iksu2" path="res://EditorResources/GridMap/Basic/UBlock.obj" id="46_rf22i"]
+[ext_resource type="ArrayMesh" uid="uid://c7qtydceu1axu" path="res://EditorResources/GridMap/Uninkable/OBlock.obj" id="47_0iymh"]
+[ext_resource type="ArrayMesh" uid="uid://rgselohbe28q" path="res://EditorResources/GridMap/Uninkable/RoadBlock.obj" id="48_kkuoe"]
+[ext_resource type="ArrayMesh" uid="uid://bxv168oxutgbo" path="res://EditorResources/GridMap/Uninkable/SideBlock.obj" id="49_2ddcm"]
+[ext_resource type="ArrayMesh" uid="uid://b63cqpn5h351" path="res://EditorResources/GridMap/Uninkable/UBlock.obj" id="50_avr38"]
+[ext_resource type="ArrayMesh" uid="uid://bm6clgsjuqsno" path="res://EditorResources/GridMap/UninkableShort/CornerBlock.obj" id="51_a4pvr"]
+[ext_resource type="ArrayMesh" uid="uid://buxnb4emwa14m" path="res://EditorResources/GridMap/UninkableShort/MiddleBlock.obj" id="52_0l2ki"]
+[ext_resource type="ArrayMesh" uid="uid://djg3vq2lcasvl" path="res://EditorResources/GridMap/UninkableShort/OBlock.obj" id="53_44kyh"]
+[ext_resource type="ArrayMesh" uid="uid://ba4m363kplspw" path="res://EditorResources/GridMap/UninkableShort/RoadBlock.obj" id="54_k77xa"]
+[ext_resource type="ArrayMesh" uid="uid://cgdjis72nk5dc" path="res://EditorResources/GridMap/UninkableShort/SideBlock.obj" id="55_l78ob"]
+[ext_resource type="ArrayMesh" uid="uid://h1x4wr4tdwlb" path="res://EditorResources/GridMap/UninkableShort/UBlock.obj" id="56_dud0q"]
+[ext_resource type="ArrayMesh" uid="uid://cox7wb7afviim" path="res://EditorResources/GridMap/Short/CornerBlock.obj" id="57_j3oju"]
+[ext_resource type="ArrayMesh" uid="uid://dhjnkbfvn0o6p" path="res://EditorResources/GridMap/UninkableShortTriangle/OBlock.obj" id="58_arvr3"]
+[ext_resource type="ArrayMesh" uid="uid://6k6fxteeqbbr" path="res://EditorResources/GridMap/UninkableShortTriangle/SideBlock.obj" id="59_ix3sw"]
+[ext_resource type="ArrayMesh" uid="uid://b4dpyacjpqbbw" path="res://EditorResources/GridMap/UninkableShortTriangle/SideBlockA.obj" id="60_641ga"]
+[ext_resource type="ArrayMesh" uid="uid://bwlyfaxdx7ffd" path="res://EditorResources/GridMap/UninkableShortTriangle/SideBlockB.obj" id="61_s2yli"]
+[ext_resource type="ArrayMesh" uid="uid://da4lb3hgcmoro" path="res://EditorResources/GridMap/UninkableSlope/CornerBlock.obj" id="62_6tov0"]
+[ext_resource type="ArrayMesh" uid="uid://c0rbsg5aj5y65" path="res://EditorResources/GridMap/UninkableSlope/MiddleBlock.obj" id="63_gmpxh"]
+[ext_resource type="ArrayMesh" uid="uid://dwro1uaogb3w7" path="res://EditorResources/GridMap/UninkableSlope/OBlock.obj" id="64_40bbu"]
+[ext_resource type="ArrayMesh" uid="uid://cbelo4l3re5lf" path="res://EditorResources/GridMap/UninkableSlope/RoadBlock.obj" id="65_ldutt"]
+[ext_resource type="ArrayMesh" uid="uid://dvrus58haek16" path="res://EditorResources/GridMap/UninkableSlope/SideBlock.obj" id="66_hiktu"]
+[ext_resource type="ArrayMesh" uid="uid://byjp3vxdjwrm5" path="res://EditorResources/GridMap/UninkableSlope/UBlock.obj" id="67_3cldm"]
+[ext_resource type="ArrayMesh" uid="uid://ckwuqlyddxv50" path="res://EditorResources/GridMap/Short/MiddleBlock.obj" id="68_ga0im"]
+[ext_resource type="ArrayMesh" uid="uid://bphugeoyiul00" path="res://EditorResources/GridMap/UninkableSlopeShort/CornerBlock.obj" id="69_2khvp"]
+[ext_resource type="ArrayMesh" uid="uid://c0ok4ucrs17wf" path="res://EditorResources/GridMap/Short/OBlock.obj" id="69_u2sdv"]
+[ext_resource type="ArrayMesh" uid="uid://w14lnesqq3cx" path="res://EditorResources/GridMap/Short/RoadBlock.obj" id="70_271k2"]
+[ext_resource type="ArrayMesh" uid="uid://q8d8f5cwiivw" path="res://EditorResources/GridMap/UninkableSlopeShort/MiddleBlock.obj" id="70_bpfck"]
+[ext_resource type="ArrayMesh" uid="uid://cmnbhpfsvi45b" path="res://EditorResources/GridMap/UninkableSlopeShort/OBlock.obj" id="71_w3gv6"]
+[ext_resource type="ArrayMesh" uid="uid://cd78lwq6ace7w" path="res://EditorResources/GridMap/UninkableSlopeShort/RoadBlock.obj" id="72_yo57c"]
+[ext_resource type="ArrayMesh" uid="uid://dnlpuqpl1t0pi" path="res://EditorResources/GridMap/UninkableSlopeShort/SideBlock.obj" id="73_r0v87"]
+[ext_resource type="ArrayMesh" uid="uid://bdlet763ndlrl" path="res://EditorResources/GridMap/UninkableSlopeShort/UBlock.obj" id="74_u2ct2"]
+[ext_resource type="ArrayMesh" uid="uid://ctj8a3hqbp7hd" path="res://EditorResources/GridMap/UninkableTriangle/OBlock.obj" id="75_jn28l"]
+[ext_resource type="ArrayMesh" uid="uid://cas3koxpy58g6" path="res://EditorResources/GridMap/UninkableTriangle/SideBlock.obj" id="76_dd8xy"]
+[ext_resource type="ArrayMesh" uid="uid://c3b5ln850x7qn" path="res://EditorResources/GridMap/UninkableTriangle/SideBlockA.obj" id="77_6th8g"]
+[ext_resource type="ArrayMesh" uid="uid://fhicrmuxvv84" path="res://EditorResources/GridMap/UninkableTriangle/SideBlockB.obj" id="78_14mbq"]
+[ext_resource type="ArrayMesh" uid="uid://dmnu4vpl8ygwm" path="res://EditorResources/GridMap/Grates/Grate U.obj" id="80_7r84w"]
+[ext_resource type="ArrayMesh" uid="uid://pdexghavso8c" path="res://EditorResources/GridMap/Grates/Corner Grate U.obj" id="81_83tyc"]
+[ext_resource type="ArrayMesh" uid="uid://cqglyakimt22o" path="res://EditorResources/GridMap/Grates/Side Grate U.obj" id="82_mfobl"]
+[ext_resource type="ArrayMesh" uid="uid://cmusy5syysjhk" path="res://EditorResources/GridMap/Grates/Road Grate U.obj" id="83_a0855"]
+[ext_resource type="ArrayMesh" uid="uid://clnvkr71gcc17" path="res://EditorResources/GridMap/Grates/Surrounded Grate U.obj" id="84_evdlb"]
+[ext_resource type="ArrayMesh" uid="uid://c3kb1hx486gpe" path="res://EditorResources/GridMap/Grates/Tri Grate U.obj" id="85_gtewh"]
+[ext_resource type="ArrayMesh" uid="uid://bja3mqhxktsp8" path="res://EditorResources/GridMap/Grates/Grate Ramp.obj" id="86_tjfb0"]
+[ext_resource type="ArrayMesh" uid="uid://b4hvj7k67jvvh" path="res://EditorResources/GridMap/Grates/Grate Ramp Short.obj" id="87_602ft"]
+[ext_resource type="ArrayMesh" uid="uid://bmb0nmf1o1c0e" path="res://EditorResources/GridMap/Grates/U-Turn Grate U.obj" id="88_dsmdg"]
+[ext_resource type="ArrayMesh" uid="uid://d0mmjlll2qwlw" path="res://EditorResources/GridMap/Modes/ClamBasket.obj" id="89_pwoer"]
+[ext_resource type="ArrayMesh" uid="uid://cfrrmhtfg6qb8" path="res://EditorResources/GridMap/Modes/Checkpoint.obj" id="91_tlubd"]
+[ext_resource type="ArrayMesh" uid="uid://dktpe50hjqsnw" path="res://EditorResources/GridMap/Modes/CheckpointInActive.obj" id="92_rn2pk"]
+[ext_resource type="ArrayMesh" uid="uid://1ci4yopnbf8" path="res://EditorResources/GridMap/Modes/ClamBump.obj" id="93_clvti"]
+[ext_resource type="ArrayMesh" uid="uid://cdi317eh3molo" path="res://EditorResources/GridMap/Modes/ZoneArea.obj" id="94_2tynr"]
+
+[resource]
+item/0/name = "BasicCorner"
+item/0/mesh = ExtResource("1_n6gt7")
+item/0/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/0/shapes = []
+item/0/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/0/navigation_layers = 1
+item/1/name = "BasicMiddle"
+item/1/mesh = ExtResource("2_m22v6")
+item/1/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/1/shapes = []
+item/1/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/1/navigation_layers = 1
+item/2/name = "BasicO"
+item/2/mesh = ExtResource("13_7wmnt")
+item/2/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/2/shapes = []
+item/2/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/2/navigation_layers = 1
+item/3/name = "BasicRoad"
+item/3/mesh = ExtResource("24_o8gmh")
+item/3/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/3/shapes = []
+item/3/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/3/navigation_layers = 1
+item/4/name = "BasicSide"
+item/4/mesh = ExtResource("35_c1ynx")
+item/4/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/4/shapes = []
+item/4/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/4/navigation_layers = 1
+item/5/name = "BasicU"
+item/5/mesh = ExtResource("46_rf22i")
+item/5/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/5/shapes = []
+item/5/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/5/navigation_layers = 1
+item/6/name = "ShortCorner"
+item/6/mesh = ExtResource("57_j3oju")
+item/6/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/6/shapes = []
+item/6/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/6/navigation_layers = 1
+item/7/name = "ShortMiddle"
+item/7/mesh = ExtResource("68_ga0im")
+item/7/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/7/shapes = []
+item/7/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/7/navigation_layers = 1
+item/8/name = "ShortO"
+item/8/mesh = ExtResource("69_u2sdv")
+item/8/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/8/shapes = []
+item/8/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/8/navigation_layers = 1
+item/9/name = "ShortRoad"
+item/9/mesh = ExtResource("70_271k2")
+item/9/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/9/shapes = []
+item/9/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/9/navigation_layers = 1
+item/10/name = "ShortSide"
+item/10/mesh = ExtResource("3_1dkgj")
+item/10/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/10/shapes = []
+item/10/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/10/navigation_layers = 1
+item/11/name = "ShortU"
+item/11/mesh = ExtResource("4_8o5de")
+item/11/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/11/shapes = []
+item/11/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/11/navigation_layers = 1
+item/12/name = "ShortTriangleO"
+item/12/mesh = ExtResource("5_k675a")
+item/12/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/12/shapes = []
+item/12/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/12/navigation_layers = 1
+item/13/name = "ShortTriangleSide"
+item/13/mesh = ExtResource("6_1tavl")
+item/13/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/13/shapes = []
+item/13/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/13/navigation_layers = 1
+item/14/name = "ShortTriangleSideA"
+item/14/mesh = ExtResource("7_xtjfr")
+item/14/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/14/shapes = []
+item/14/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/14/navigation_layers = 1
+item/15/name = "ShortTriangleSideB"
+item/15/mesh = ExtResource("8_8qiex")
+item/15/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/15/shapes = []
+item/15/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/15/navigation_layers = 1
+item/16/name = "SlopeCorner"
+item/16/mesh = ExtResource("9_6ov7b")
+item/16/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/16/shapes = []
+item/16/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/16/navigation_layers = 1
+item/17/name = "SlopeCornerA"
+item/17/mesh = ExtResource("10_yahxu")
+item/17/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/17/shapes = []
+item/17/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/17/navigation_layers = 1
+item/18/name = "SlopeCornerB"
+item/18/mesh = ExtResource("11_hudcu")
+item/18/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/18/shapes = []
+item/18/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/18/navigation_layers = 1
+item/19/name = "SlopeCornerC"
+item/19/mesh = ExtResource("12_8fl4g")
+item/19/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/19/shapes = []
+item/19/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/19/navigation_layers = 1
+item/20/name = "SlopeMiddle"
+item/20/mesh = ExtResource("14_s5gcx")
+item/20/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/20/shapes = []
+item/20/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/20/navigation_layers = 1
+item/21/name = "SlopeO"
+item/21/mesh = ExtResource("15_cees3")
+item/21/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/21/shapes = []
+item/21/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/21/navigation_layers = 1
+item/22/name = "SlopeRoad"
+item/22/mesh = ExtResource("16_28d1b")
+item/22/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/22/shapes = []
+item/22/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/22/navigation_layers = 1
+item/23/name = "SlopeRoadA"
+item/23/mesh = ExtResource("17_k3y2t")
+item/23/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/23/shapes = []
+item/23/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/23/navigation_layers = 1
+item/24/name = "SlopeRoadB"
+item/24/mesh = ExtResource("18_j148i")
+item/24/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/24/shapes = []
+item/24/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/24/navigation_layers = 1
+item/25/name = "SlopeSide"
+item/25/mesh = ExtResource("19_lpnhn")
+item/25/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/25/shapes = []
+item/25/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/25/navigation_layers = 1
+item/26/name = "SlopeSideA"
+item/26/mesh = ExtResource("20_8mxjr")
+item/26/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/26/shapes = []
+item/26/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/26/navigation_layers = 1
+item/27/name = "SlopeSideB"
+item/27/mesh = ExtResource("21_oysth")
+item/27/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/27/shapes = []
+item/27/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/27/navigation_layers = 1
+item/28/name = "SlopeSideC"
+item/28/mesh = ExtResource("22_k3w3d")
+item/28/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/28/shapes = []
+item/28/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/28/navigation_layers = 1
+item/29/name = "SlopeU"
+item/29/mesh = ExtResource("23_7uyl5")
+item/29/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/29/shapes = []
+item/29/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/29/navigation_layers = 1
+item/30/name = "SlopeShortCorner"
+item/30/mesh = ExtResource("25_6moui")
+item/30/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/30/shapes = []
+item/30/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/30/navigation_layers = 1
+item/31/name = "SlopeShortCornerA"
+item/31/mesh = ExtResource("26_7y5yt")
+item/31/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/31/shapes = []
+item/31/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/31/navigation_layers = 1
+item/32/name = "SlopeShortCornerB"
+item/32/mesh = ExtResource("27_n70d3")
+item/32/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/32/shapes = []
+item/32/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/32/navigation_layers = 1
+item/33/name = "SlopeShortCornerC"
+item/33/mesh = ExtResource("28_0aque")
+item/33/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/33/shapes = []
+item/33/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/33/navigation_layers = 1
+item/34/name = "SlopeShortMiddle"
+item/34/mesh = ExtResource("29_m0t3g")
+item/34/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/34/shapes = []
+item/34/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/34/navigation_layers = 1
+item/35/name = "SlopeShortO"
+item/35/mesh = ExtResource("30_25sp7")
+item/35/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/35/shapes = []
+item/35/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/35/navigation_layers = 1
+item/36/name = "SlopeShortRoad"
+item/36/mesh = ExtResource("31_5k6uk")
+item/36/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/36/shapes = []
+item/36/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/36/navigation_layers = 1
+item/37/name = "SlopeShortRoadA"
+item/37/mesh = ExtResource("32_hnv0c")
+item/37/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/37/shapes = []
+item/37/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/37/navigation_layers = 1
+item/38/name = "SlopeShortRoadB"
+item/38/mesh = ExtResource("33_320xx")
+item/38/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/38/shapes = []
+item/38/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/38/navigation_layers = 1
+item/39/name = "SlopeShortSide"
+item/39/mesh = ExtResource("34_rrkd2")
+item/39/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/39/shapes = []
+item/39/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/39/navigation_layers = 1
+item/40/name = "SlopeShortSideA"
+item/40/mesh = ExtResource("36_65q7c")
+item/40/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/40/shapes = []
+item/40/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/40/navigation_layers = 1
+item/41/name = "SlopeShortSideB"
+item/41/mesh = ExtResource("37_fi2m0")
+item/41/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/41/shapes = []
+item/41/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/41/navigation_layers = 1
+item/42/name = "SlopeShortSideC"
+item/42/mesh = ExtResource("38_7h24u")
+item/42/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/42/shapes = []
+item/42/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/42/navigation_layers = 1
+item/43/name = "SlopeShortU"
+item/43/mesh = ExtResource("39_i1ij1")
+item/43/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/43/shapes = []
+item/43/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/43/navigation_layers = 1
+item/44/name = "TriangleO"
+item/44/mesh = ExtResource("40_vgkwv")
+item/44/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/44/shapes = []
+item/44/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/44/navigation_layers = 1
+item/45/name = "TriangleSide"
+item/45/mesh = ExtResource("41_qoicp")
+item/45/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/45/shapes = []
+item/45/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/45/navigation_layers = 1
+item/46/name = "TriangleSideA"
+item/46/mesh = ExtResource("42_r0i07")
+item/46/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/46/shapes = []
+item/46/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/46/navigation_layers = 1
+item/47/name = "TriangleSideB"
+item/47/mesh = ExtResource("43_jm6f3")
+item/47/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/47/shapes = []
+item/47/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/47/navigation_layers = 1
+item/48/name = "UninkableCorner"
+item/48/mesh = ExtResource("44_owqdd")
+item/48/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/48/shapes = []
+item/48/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/48/navigation_layers = 1
+item/49/name = "UninkableMiddle"
+item/49/mesh = ExtResource("45_3vu7x")
+item/49/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/49/shapes = []
+item/49/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/49/navigation_layers = 1
+item/50/name = "UninkableO"
+item/50/mesh = ExtResource("47_0iymh")
+item/50/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/50/shapes = []
+item/50/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/50/navigation_layers = 1
+item/51/name = "UninkableRoad"
+item/51/mesh = ExtResource("48_kkuoe")
+item/51/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/51/shapes = []
+item/51/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/51/navigation_layers = 1
+item/52/name = "UninkableSide"
+item/52/mesh = ExtResource("49_2ddcm")
+item/52/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/52/shapes = []
+item/52/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/52/navigation_layers = 1
+item/53/name = "UninkableU"
+item/53/mesh = ExtResource("50_avr38")
+item/53/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/53/shapes = []
+item/53/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/53/navigation_layers = 1
+item/54/name = "UninkableShortCorner"
+item/54/mesh = ExtResource("51_a4pvr")
+item/54/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/54/shapes = []
+item/54/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/54/navigation_layers = 1
+item/55/name = "UninkableShortMiddle"
+item/55/mesh = ExtResource("52_0l2ki")
+item/55/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/55/shapes = []
+item/55/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/55/navigation_layers = 1
+item/56/name = "UninkableShortO"
+item/56/mesh = ExtResource("53_44kyh")
+item/56/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/56/shapes = []
+item/56/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/56/navigation_layers = 1
+item/57/name = "UninkableShortRoad"
+item/57/mesh = ExtResource("54_k77xa")
+item/57/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/57/shapes = []
+item/57/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/57/navigation_layers = 1
+item/58/name = "UninkableShortSide"
+item/58/mesh = ExtResource("55_l78ob")
+item/58/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/58/shapes = []
+item/58/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/58/navigation_layers = 1
+item/59/name = "UninkableShortU"
+item/59/mesh = ExtResource("56_dud0q")
+item/59/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/59/shapes = []
+item/59/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/59/navigation_layers = 1
+item/60/name = "UninkableShortTriangleO"
+item/60/mesh = ExtResource("58_arvr3")
+item/60/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/60/shapes = []
+item/60/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/60/navigation_layers = 1
+item/61/name = "UninkableShortTriangleSide"
+item/61/mesh = ExtResource("59_ix3sw")
+item/61/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/61/shapes = []
+item/61/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/61/navigation_layers = 1
+item/62/name = "UninkableShortTriangleSideA"
+item/62/mesh = ExtResource("60_641ga")
+item/62/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/62/shapes = []
+item/62/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/62/navigation_layers = 1
+item/63/name = "UninkableShortTriangleSideB"
+item/63/mesh = ExtResource("61_s2yli")
+item/63/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/63/shapes = []
+item/63/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/63/navigation_layers = 1
+item/64/name = "UninkableSlopeCorner"
+item/64/mesh = ExtResource("62_6tov0")
+item/64/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/64/shapes = []
+item/64/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/64/navigation_layers = 1
+item/65/name = "UninkableSlopeMiddle"
+item/65/mesh = ExtResource("63_gmpxh")
+item/65/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/65/shapes = []
+item/65/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/65/navigation_layers = 1
+item/66/name = "UninkableSlopeO"
+item/66/mesh = ExtResource("64_40bbu")
+item/66/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/66/shapes = []
+item/66/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/66/navigation_layers = 1
+item/67/name = "UninkableSlopeRoad"
+item/67/mesh = ExtResource("65_ldutt")
+item/67/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/67/shapes = []
+item/67/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/67/navigation_layers = 1
+item/68/name = "UninkableSlopeSide"
+item/68/mesh = ExtResource("66_hiktu")
+item/68/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/68/shapes = []
+item/68/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/68/navigation_layers = 1
+item/69/name = "UninkableSlopeU"
+item/69/mesh = ExtResource("67_3cldm")
+item/69/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/69/shapes = []
+item/69/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/69/navigation_layers = 1
+item/70/name = "UninkableSlopeShortCorner"
+item/70/mesh = ExtResource("69_2khvp")
+item/70/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/70/shapes = []
+item/70/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/70/navigation_layers = 1
+item/71/name = "UninkableSlopeShortMiddle"
+item/71/mesh = ExtResource("70_bpfck")
+item/71/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/71/shapes = []
+item/71/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/71/navigation_layers = 1
+item/72/name = "UninkableSlopeShortO"
+item/72/mesh = ExtResource("71_w3gv6")
+item/72/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/72/shapes = []
+item/72/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/72/navigation_layers = 1
+item/73/name = "UninkableSlopeShortRoad"
+item/73/mesh = ExtResource("72_yo57c")
+item/73/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/73/shapes = []
+item/73/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/73/navigation_layers = 1
+item/74/name = "UninkableSlopeShortSide"
+item/74/mesh = ExtResource("73_r0v87")
+item/74/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/74/shapes = []
+item/74/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/74/navigation_layers = 1
+item/75/name = "UninkableSlopeShortU"
+item/75/mesh = ExtResource("74_u2ct2")
+item/75/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/75/shapes = []
+item/75/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/75/navigation_layers = 1
+item/76/name = "UninkableTriangleO"
+item/76/mesh = ExtResource("75_jn28l")
+item/76/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/76/shapes = []
+item/76/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/76/navigation_layers = 1
+item/77/name = "UninkableTriangleSide"
+item/77/mesh = ExtResource("76_dd8xy")
+item/77/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/77/shapes = []
+item/77/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/77/navigation_layers = 1
+item/78/name = "UninkableTriangleSideA"
+item/78/mesh = ExtResource("77_6th8g")
+item/78/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/78/shapes = []
+item/78/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/78/navigation_layers = 1
+item/79/name = "UninkableTriangleSideB"
+item/79/mesh = ExtResource("78_14mbq")
+item/79/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/79/shapes = []
+item/79/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/79/navigation_layers = 1
+item/80/name = "UGrate"
+item/80/mesh = ExtResource("80_7r84w")
+item/80/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/80/shapes = []
+item/80/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/80/navigation_layers = 1
+item/81/name = "CornerGrate"
+item/81/mesh = ExtResource("81_83tyc")
+item/81/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/81/shapes = []
+item/81/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/81/navigation_layers = 1
+item/82/name = "SideGrate"
+item/82/mesh = ExtResource("82_mfobl")
+item/82/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/82/shapes = []
+item/82/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/82/navigation_layers = 1
+item/83/name = "RoadGrate"
+item/83/mesh = ExtResource("83_a0855")
+item/83/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/83/shapes = []
+item/83/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/83/navigation_layers = 1
+item/84/name = "SurroundedGrate"
+item/84/mesh = ExtResource("84_evdlb")
+item/84/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/84/shapes = []
+item/84/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/84/navigation_layers = 1
+item/85/name = "TriGrate"
+item/85/mesh = ExtResource("85_gtewh")
+item/85/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/85/shapes = []
+item/85/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/85/navigation_layers = 1
+item/86/name = "RampGrate"
+item/86/mesh = ExtResource("86_tjfb0")
+item/86/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/86/shapes = []
+item/86/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/86/navigation_layers = 1
+item/87/name = "ShortRampGrate"
+item/87/mesh = ExtResource("87_602ft")
+item/87/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/87/shapes = []
+item/87/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/87/navigation_layers = 1
+item/88/name = "UGrate"
+item/88/mesh = ExtResource("88_dsmdg")
+item/88/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/88/shapes = []
+item/88/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/88/navigation_layers = 1
+item/89/name = "ClamBasket"
+item/89/mesh = ExtResource("89_pwoer")
+item/89/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/89/shapes = []
+item/89/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/89/navigation_layers = 1
+item/90/name = "RainCheckAct"
+item/90/mesh = ExtResource("91_tlubd")
+item/90/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/90/shapes = []
+item/90/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/90/navigation_layers = 1
+item/91/name = "RainCheckIn"
+item/91/mesh = ExtResource("92_rn2pk")
+item/91/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/91/shapes = []
+item/91/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/91/navigation_layers = 1
+item/92/name = "ClamBump"
+item/92/mesh = ExtResource("93_clvti")
+item/92/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/92/shapes = []
+item/92/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/92/navigation_layers = 1
+item/93/name = "ZoneArea"
+item/93/mesh = ExtResource("94_2tynr")
+item/93/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/93/shapes = []
+item/93/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/93/navigation_layers = 1

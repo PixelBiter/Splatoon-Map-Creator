@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bwt6wux1y070y"
+path="res://.godot/imported/OBlock.obj-597647952b159934a12fa39b0ef9cac4.mesh"
+
+[deps]
+
+files=["res://.godot/imported/OBlock.obj-597647952b159934a12fa39b0ef9cac4.mesh"]
+
+source_file="res://EditorResources/GridMap/Slope/OBlock.obj"
+dest_files=["res://.godot/imported/OBlock.obj-597647952b159934a12fa39b0ef9cac4.mesh", "res://.godot/imported/OBlock.obj-597647952b159934a12fa39b0ef9cac4.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

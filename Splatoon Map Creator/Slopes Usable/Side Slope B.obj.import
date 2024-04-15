@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dr0ksh6oi6bdo"
+path="res://.godot/imported/Side Slope B.obj-00ac525015d3ffe24e692305d715ca6e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Side Slope B.obj-00ac525015d3ffe24e692305d715ca6e.mesh"]
+
+source_file="res://Slopes Usable/Side Slope B.obj"
+dest_files=["res://.godot/imported/Side Slope B.obj-00ac525015d3ffe24e692305d715ca6e.mesh", "res://.godot/imported/Side Slope B.obj-00ac525015d3ffe24e692305d715ca6e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

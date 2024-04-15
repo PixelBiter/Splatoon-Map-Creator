@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://pdexghavso8c"
+path="res://.godot/imported/Corner Grate U.obj-e0627b41cd40f9b85e9157caf7635d20.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Corner Grate U.obj-e0627b41cd40f9b85e9157caf7635d20.mesh"]
+
+source_file="res://3D Models Usable/Corner Grate U.obj"
+dest_files=["res://.godot/imported/Corner Grate U.obj-e0627b41cd40f9b85e9157caf7635d20.mesh", "res://.godot/imported/Corner Grate U.obj-e0627b41cd40f9b85e9157caf7635d20.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://pvbo5m883phn"
+path="res://.godot/imported/SideBlockC.obj-e7bc7f7401057e5487af95e63e61926a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SideBlockC.obj-e7bc7f7401057e5487af95e63e61926a.mesh"]
+
+source_file="res://EditorResources/GridMap/Slope/SideBlockC.obj"
+dest_files=["res://.godot/imported/SideBlockC.obj-e7bc7f7401057e5487af95e63e61926a.mesh", "res://.godot/imported/SideBlockC.obj-e7bc7f7401057e5487af95e63e61926a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

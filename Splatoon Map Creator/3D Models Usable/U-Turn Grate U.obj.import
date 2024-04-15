@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bmb0nmf1o1c0e"
+path="res://.godot/imported/U-Turn Grate U.obj-0afb6465c3a2ef204ca7ca0288ecda91.mesh"
+
+[deps]
+
+files=["res://.godot/imported/U-Turn Grate U.obj-0afb6465c3a2ef204ca7ca0288ecda91.mesh"]
+
+source_file="res://3D Models Usable/U-Turn Grate U.obj"
+dest_files=["res://.godot/imported/U-Turn Grate U.obj-0afb6465c3a2ef204ca7ca0288ecda91.mesh", "res://.godot/imported/U-Turn Grate U.obj-0afb6465c3a2ef204ca7ca0288ecda91.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

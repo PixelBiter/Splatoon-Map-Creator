@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cllh7p3w8kdes"
+path="res://.godot/imported/RoadBlock.obj-2422023f355a56ed7da608c88c0362d8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/RoadBlock.obj-2422023f355a56ed7da608c88c0362d8.mesh"]
+
+source_file="res://EditorResources/GridMap/Basic/RoadBlock.obj"
+dest_files=["res://.godot/imported/RoadBlock.obj-2422023f355a56ed7da608c88c0362d8.mesh", "res://.godot/imported/RoadBlock.obj-2422023f355a56ed7da608c88c0362d8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cqdk5lb24eon4"
+path="res://.godot/imported/Road Slope.obj-8820a47916b3284abac2c6fee739f882.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Road Slope.obj-8820a47916b3284abac2c6fee739f882.mesh"]
+
+source_file="res://Slopes Usable/Road Slope.obj"
+dest_files=["res://.godot/imported/Road Slope.obj-8820a47916b3284abac2c6fee739f882.mesh", "res://.godot/imported/Road Slope.obj-8820a47916b3284abac2c6fee739f882.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

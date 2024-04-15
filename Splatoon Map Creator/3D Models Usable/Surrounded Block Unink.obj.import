@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b4wb5fnndqj33"
+path="res://.godot/imported/Surrounded Block Unink.obj-08aa08f23aaaf973e7e66482961da09a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Surrounded Block Unink.obj-08aa08f23aaaf973e7e66482961da09a.mesh"]
+
+source_file="res://3D Models Usable/Surrounded Block Unink.obj"
+dest_files=["res://.godot/imported/Surrounded Block Unink.obj-08aa08f23aaaf973e7e66482961da09a.mesh", "res://.godot/imported/Surrounded Block Unink.obj-08aa08f23aaaf973e7e66482961da09a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

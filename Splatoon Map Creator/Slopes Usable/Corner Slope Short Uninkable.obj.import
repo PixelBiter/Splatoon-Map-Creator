@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://drk5go1q7mpu"
+path="res://.godot/imported/Corner Slope Short Uninkable.obj-ad0c6c36c73b0aeb04b55e66200678f0.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Corner Slope Short Uninkable.obj-ad0c6c36c73b0aeb04b55e66200678f0.mesh"]
+
+source_file="res://Slopes Usable/Corner Slope Short Uninkable.obj"
+dest_files=["res://.godot/imported/Corner Slope Short Uninkable.obj-ad0c6c36c73b0aeb04b55e66200678f0.mesh", "res://.godot/imported/Corner Slope Short Uninkable.obj-ad0c6c36c73b0aeb04b55e66200678f0.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

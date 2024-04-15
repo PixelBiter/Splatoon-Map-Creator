@@ -1,0 +1,12 @@
+0-5: Basic
+6-11: Short
+12-15: ShortTriangle
+16-29: Slope
+30-43: SlopeShort
+44-47: Triangle
+48-53: Uninkable
+54-59: UninkableShort
+60-63: UninkableShortTriangle
+64-69: UninkableSlope
+70-75: UninkableSlopeShort
+76-79: UninkableTriangle
