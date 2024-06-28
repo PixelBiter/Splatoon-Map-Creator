@@ -1,13 +1,22 @@
 extends Node3D
 var UIHelp = load("res://EditorResources/MapEditor.tres")
 var yrot = 0
+var No = false
 func _ready():
 	
 	if FileAccess.open("res://EditorResources/MapFiles/Current.txt", FileAccess.READ) != null:
 		G.Grid = FileAccess.open("res://EditorResources/MapFiles/Current.txt", FileAccess.READ)
 		G.UsedCells = JSON.parse_string(G.Grid.get_as_text())
-		for i in range(len(G.UsedCells["Pos1"])):
-			$BuiltMap.set_cell_item(Vector3i(G.UsedCells.Pos1[i],G.UsedCells.Pos2[i],G.UsedCells.Pos3[i]),G.UsedCells["Type"][i],G.UsedCells["Ori"][i])
+		while No == false:
+			No = true
+			for i in range(len(G.UsedCells["Pos1"])):
+				if $BuiltMap.get_cell_item(Vector3i(G.UsedCells.Pos1[i],G.UsedCells.Pos2[i],G.UsedCells.Pos3[i])) != -1:
+					_deletecell(G.UsedCells.Pos1[i],G.UsedCells.Pos2[i],G.UsedCells.Pos3[i])
+					No = false
+					break
+				$BuiltMap.set_cell_item(Vector3i(G.UsedCells.Pos1[i],G.UsedCells.Pos2[i],G.UsedCells.Pos3[i]),G.UsedCells["Type"][i],G.UsedCells["Ori"][i])
+			if No == false:
+				$BuiltMap.clear()
 	G.ELayerCurrent = G.ELayerStart
 	for i in range(G.ELayerAmount):
 		var Layer = load("res://layer.tscn")
@@ -27,6 +36,13 @@ func _process(delta):
 	else:
 		$Selector/Cams/Camera/UI/UIBlock2.mesh = UIHelp.get_item_mesh(G.ETileType[1]-1)
 	$Selector/Cams/Camera/UI/UIBlock.global_rotation_degrees = Vector3(0,yrot,0)
+	if float($Selector/Cams/Camera/UI/UIFlat/FOV.text) < 179:
+		$Selector/Cams/Camera.fov = float($Selector/Cams/Camera/UI/UIFlat/FOV.text)
+	else:
+		$Selector/Cams/Camera/UI/UIFlat/FOV.text = "90"
+	$Selector/Cams/Camera.size = float($Selector/Cams/Camera/UI/UIFlat/Zoom.text)
+	if G.CamLock[0] == true:
+		$Selector/Cams/Camera.global_position = G.CamLock[1]
 	
 	
 
@@ -118,6 +134,8 @@ func _input(event):
 				G.ETileType[1] = G.ETileList[G.ETileType[0]][0]
 
 		if Input.is_action_just_pressed("BlockP"):
+			if $BuiltMap.get_cell_item(Vector3i(G.EPosition[0],G.EPositionLayer,G.EPosition[1])) != -1:
+				_deletecell(G.EPosition[0],G.EPositionLayer,G.EPosition[1])
 			$BuiltMap.set_cell_item(Vector3i(G.EPosition[0],G.EPositionLayer,G.EPosition[1]),G.ETileType[1],G.ETileOrient)
 			G.UsedCells.Pos1 += [G.EPosition[0]]
 			G.UsedCells.Pos2 +=[G.EPositionLayer]
@@ -125,7 +143,7 @@ func _input(event):
 			G.UsedCells.Type += [G.ETileType[1]]
 			G.UsedCells.Ori += [G.ETileOrient]
 		if Input.is_action_just_pressed("BlockD"):
-			_deletecell()
+			_deletecell(G.EPosition[0],G.EPositionLayer,G.EPosition[1])
 			$BuiltMap.set_cell_item(Vector3i(G.EPosition[0],G.EPositionLayer,G.EPosition[1]),-1,G.ETileOrient)
 
 	if Input.is_action_just_pressed("LightToggle"):
@@ -141,6 +159,13 @@ func _input(event):
 			$Selector/Cams/Camera/UI.visible = true
 			$Selector/Cams/Camera/UI/UIFlat.visible = true
 			$Selector.visible = true
+	
+	if Input.is_action_just_pressed("CamLock"):
+		if G.CamLock[0] == false:
+			G.CamLock[1] = $Selector/Cams/Camera.global_position
+			G.CamLock[0] = true
+		else:
+			G.CamLock[0] = false
 
 	if G.Controller == false or (G.Controller == true and $Selector.visible == true):
 		if Input.is_action_just_pressed("Save"):
@@ -155,9 +180,9 @@ func _input(event):
 		G.Controller = true
 
 
-func _deletecell():
+func _deletecell(Position0,Layer,Position1):
 	for i in range(len(G.UsedCells.Pos1)):
-		if G.UsedCells.Pos1[i] == G.EPosition[0] and G.UsedCells.Pos2[i] == G.EPositionLayer and G.UsedCells.Pos3[i] == G.EPosition[1]:
+		if G.UsedCells.Pos1[i] == Position0 and G.UsedCells.Pos2[i] == Layer and G.UsedCells.Pos3[i] == Position1:
 			G.UsedCells.Pos1.remove_at(i)
 			G.UsedCells.Pos2.remove_at(i)
 			G.UsedCells.Pos3.remove_at(i)

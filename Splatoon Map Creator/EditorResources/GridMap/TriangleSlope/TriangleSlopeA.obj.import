@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://1wtx5eihc7aw"
+path="res://.godot/imported/TriangleSlopeA.obj-cadffed5e81fb4c86a2664333e3ca498.mesh"
+
+[deps]
+
+files=["res://.godot/imported/TriangleSlopeA.obj-cadffed5e81fb4c86a2664333e3ca498.mesh"]
+
+source_file="res://EditorResources/GridMap/TriangleSlope/TriangleSlopeA.obj"
+dest_files=["res://.godot/imported/TriangleSlopeA.obj-cadffed5e81fb4c86a2664333e3ca498.mesh", "res://.godot/imported/TriangleSlopeA.obj-cadffed5e81fb4c86a2664333e3ca498.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

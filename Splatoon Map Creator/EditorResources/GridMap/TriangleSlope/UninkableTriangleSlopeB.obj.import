@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cfdot2gttevge"
+path="res://.godot/imported/UninkableTriangleSlopeB.obj-c1e04578fcc6ceda751362e77a37687b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/UninkableTriangleSlopeB.obj-c1e04578fcc6ceda751362e77a37687b.mesh"]
+
+source_file="res://EditorResources/GridMap/TriangleSlope/UninkableTriangleSlopeB.obj"
+dest_files=["res://.godot/imported/UninkableTriangleSlopeB.obj-c1e04578fcc6ceda751362e77a37687b.mesh", "res://.godot/imported/UninkableTriangleSlopeB.obj-c1e04578fcc6ceda751362e77a37687b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

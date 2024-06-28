@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ct25q705jm8q6"
+path="res://.godot/imported/SlopeWall.obj-db95a7cc6f2d39a721c26e1c868b38a6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SlopeWall.obj-db95a7cc6f2d39a721c26e1c868b38a6.mesh"]
+
+source_file="res://EditorResources/GridMap/Walls/SlopeWall.obj"
+dest_files=["res://.godot/imported/SlopeWall.obj-db95a7cc6f2d39a721c26e1c868b38a6.mesh", "res://.godot/imported/SlopeWall.obj-db95a7cc6f2d39a721c26e1c868b38a6.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

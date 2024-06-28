@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://kavynsdybaj4"
+path="res://.godot/imported/UninkableShortTriangleSlopeB.obj-63ea696309fa522cca6069853dc10ee1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/UninkableShortTriangleSlopeB.obj-63ea696309fa522cca6069853dc10ee1.mesh"]
+
+source_file="res://EditorResources/GridMap/TriangleSlope/UninkableShortTriangleSlopeB.obj"
+dest_files=["res://.godot/imported/UninkableShortTriangleSlopeB.obj-63ea696309fa522cca6069853dc10ee1.mesh", "res://.godot/imported/UninkableShortTriangleSlopeB.obj-63ea696309fa522cca6069853dc10ee1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

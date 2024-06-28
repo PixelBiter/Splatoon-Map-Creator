@@ -25,7 +25,7 @@ script = ExtResource("4_28gyk")
 [node name="Camera" type="Camera3D" parent="Selector/Cams"]
 current = true
 fov = 90.0
-size = 60.0
+size = 55.0
 
 [node name="UI" type="Node3D" parent="Selector/Cams/Camera"]
 
@@ -53,7 +53,7 @@ offset_left = 16.0
 offset_top = 21.0
 offset_right = 463.0
 offset_bottom = 77.0
-item_count = 14
+item_count = 17
 selected = 0
 popup/item_0/text = "Basic"
 popup/item_0/id = 0
@@ -83,29 +83,83 @@ popup/item_12/text = "Grates"
 popup/item_12/id = 12
 popup/item_13/text = "Modes"
 popup/item_13/id = 13
+popup/item_14/text = "Vertical Grates"
+popup/item_14/id = 14
+popup/item_15/text = "Walls"
+popup/item_15/id = 15
+popup/item_16/text = "Triangle Slopes"
+popup/item_16/id = 16
 
 [node name="Label" type="Label" parent="Selector/Cams/Camera/UI/UIFlat"]
 layout_mode = 0
 offset_left = 20.0
-offset_top = 652.0
+offset_top = 522.0
 offset_right = 300.0
-offset_bottom = 1068.0
+offset_bottom = 990.0
 text = "Camera Controls:
-WASD - Move
-SHIFT - Release/Capture Mouse
-TAB - Change Camera Views
-COMMA  , - Toggle HUD + Lights
-QUOTE LEFT ` - Reset Position
+Movement - WASD
+Mouse Capture - SHIFT
+Camera Change - TAB
+Toggle HUD + Lights - COMMA
+Reset Position - QUOTE LEFT
+180 Rotate - NUM LOCK
+Camera Lock - BACKSPACE
 
 Editor Controls:
-ARROW KEYS - Move Selection Space
-PAGE UP/DOWN - Change Floors
-SPACE - Place
-ALT - DELETE
-ENTER - SAVE
-V/B - Change Direction
-C/N - Change Block
-X/M - Change Group"
+Move Selector - ARROWS
+Change Floor - PAGE UP/DOWN
+Place - SPACE/CTRL
+Delete - ALT
+Save - Enter
+Change Direction - V/B
+Change Block - C/N
+Change Group - X/M"
+
+[node name="FOV" type="LineEdit" parent="Selector/Cams/Camera/UI/UIFlat"]
+layout_mode = 0
+offset_left = 1854.0
+offset_top = 890.0
+offset_right = 1974.0
+offset_bottom = 940.0
+theme_override_font_sizes/font_size = 30
+text = "90"
+placeholder_text = "FOV"
+
+[node name="Zoom" type="LineEdit" parent="Selector/Cams/Camera/UI/UIFlat"]
+layout_mode = 0
+offset_left = 1854.0
+offset_top = 943.0
+offset_right = 1974.0
+offset_bottom = 993.0
+theme_override_font_sizes/font_size = 30
+text = "55"
+placeholder_text = "Ortha Zoom"
+
+[node name="Label2" type="Label" parent="Selector/Cams/Camera/UI/UIFlat"]
+layout_mode = 0
+offset_left = 1793.0
+offset_top = 893.0
+offset_right = 1852.0
+offset_bottom = 938.0
+theme_override_font_sizes/font_size = 30
+text = "FOV"
+
+[node name="Label3" type="Label" parent="Selector/Cams/Camera/UI/UIFlat"]
+layout_mode = 0
+offset_left = 1599.0
+offset_top = 946.0
+offset_right = 1853.0
+offset_bottom = 991.0
+theme_override_font_sizes/font_size = 30
+text = "Orthagonal Zoom"
+
+[node name="TextEdit" type="TextEdit" parent="Selector/Cams/Camera/UI/UIFlat"]
+layout_mode = 0
+offset_left = 1910.0
+offset_top = 7.0
+offset_right = 1976.0
+offset_bottom = 71.0
+editable = false
 
 [node name="Lights" type="Node3D" parent="."]
 

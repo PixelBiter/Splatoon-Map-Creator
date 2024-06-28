@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://kopeyma7bqc6"
+path="res://.godot/imported/SurroundedVGrate.obj-766f3a00ac721c8877bced39fd43a4fb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SurroundedVGrate.obj-766f3a00ac721c8877bced39fd43a4fb.mesh"]
+
+source_file="res://EditorResources/GridMap/VGrate/SurroundedVGrate.obj"
+dest_files=["res://.godot/imported/SurroundedVGrate.obj-766f3a00ac721c8877bced39fd43a4fb.mesh", "res://.godot/imported/SurroundedVGrate.obj-766f3a00ac721c8877bced39fd43a4fb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

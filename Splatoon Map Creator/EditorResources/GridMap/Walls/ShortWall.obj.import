@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cx78h5tb7g1sr"
+path="res://.godot/imported/ShortWall.obj-9c3016e4a6c51333a8bba39b7b08a095.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ShortWall.obj-9c3016e4a6c51333a8bba39b7b08a095.mesh"]
+
+source_file="res://EditorResources/GridMap/Walls/ShortWall.obj"
+dest_files=["res://.godot/imported/ShortWall.obj-9c3016e4a6c51333a8bba39b7b08a095.mesh", "res://.godot/imported/ShortWall.obj-9c3016e4a6c51333a8bba39b7b08a095.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

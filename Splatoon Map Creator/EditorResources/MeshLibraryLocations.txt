@@ -10,3 +10,8 @@
 64-69: UninkableSlope
 70-75: UninkableSlopeShort
 76-79: UninkableTriangle
+80-88: Grates
+89-94: Modes
+95-89: V.Grates
+99-103: Walls
+104-111: TriangleSlope
