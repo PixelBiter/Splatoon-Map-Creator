@@ -4,7 +4,7 @@ var ayer = 1.21
 var CamPosition
 var CamRot = 0
 
-var ETileList = [[0,5],[6,11],[12,15],[16,29],[30,43],[44,47],[48,53],[54,59],[60,63],[64,69],[70,75],[76,79],[80,88],[89,93],[94,98],[99,103],[104,111]]
+var ETileList = [[0,5],[6,11],[12,15],[16,29],[30,43],[44,47],[48,53],[54,59],[60,63],[64,69],[70,75],[76,79],[80,88],[89,93],[94,98],[99,105],[106,113]]
 var ETileType = [0,0]
 var ETileOrient = 0
 var EPosition = [0,0]
@@ -23,4 +23,4 @@ var UsedCells = {
 var Grid = []
 
 var Controller = false
-var CamLock = [false,null]
+var CamLock = [false,null,null]

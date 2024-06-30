@@ -1,15 +1,22 @@
-[gd_scene load_steps=6 format=3 uid="uid://bsftmxc3yyhmb"]
+[gd_scene load_steps=7 format=3 uid="uid://bsftmxc3yyhmb"]
 
 [ext_resource type="Script" path="res://in_app_editor.gd" id="1_4d1po"]
 [ext_resource type="MeshLibrary" uid="uid://dsb0jcodo01pv" path="res://EditorResources/MapEditor.tres" id="2_frrel"]
 [ext_resource type="ArrayMesh" uid="uid://dpy1pj5i1neho" path="res://EditorResources/SelectionCube.obj" id="3_j82pc"]
 [ext_resource type="Script" path="res://Camera3D.gd" id="4_28gyk"]
 [ext_resource type="ArrayMesh" uid="uid://dh8jgle2ued2d" path="res://EditorResources/GridMap/Basic/CornerBlock.obj" id="5_e0l8g"]
+[ext_resource type="Script" path="res://ControlDeselect.gd" id="6_0j5y3"]
 
 [node name="In-App Editor" type="Node3D"]
 script = ExtResource("1_4d1po")
 
 [node name="BuiltMap" type="GridMap" parent="."]
+mesh_library = ExtResource("2_frrel")
+cell_size = Vector3(0.3, 0.3, 0.3)
+metadata/_editor_floor_ = Vector3(0, 0, 0)
+
+[node name="CopyMap" type="GridMap" parent="."]
+visible = false
 mesh_library = ExtResource("2_frrel")
 cell_size = Vector3(0.3, 0.3, 0.3)
 metadata/_editor_floor_ = Vector3(0, 0, 0)
@@ -89,23 +96,15 @@ popup/item_15/text = "Walls"
 popup/item_15/id = 15
 popup/item_16/text = "Triangle Slopes"
 popup/item_16/id = 16
+script = ExtResource("6_0j5y3")
 
 [node name="Label" type="Label" parent="Selector/Cams/Camera/UI/UIFlat"]
 layout_mode = 0
 offset_left = 20.0
-offset_top = 522.0
+offset_top = 521.0
 offset_right = 300.0
-offset_bottom = 990.0
-text = "Camera Controls:
-Movement - WASD
-Mouse Capture - SHIFT
-Camera Change - TAB
-Toggle HUD + Lights - COMMA
-Reset Position - QUOTE LEFT
-180 Rotate - NUM LOCK
-Camera Lock - BACKSPACE
-
-Editor Controls:
+offset_bottom = 989.0
+text = "Editor Controls:
 Move Selector - ARROWS
 Change Floor - PAGE UP/DOWN
 Place - SPACE/CTRL
@@ -113,53 +112,130 @@ Delete - ALT
 Save - Enter
 Change Direction - V/B
 Change Block - C/N
-Change Group - X/M"
+Change Group - X/M
+
+Camera Controls:
+Movement - WASD
+Mouse Capture - SHIFT
+Camera Change - TAB
+Toggle HUD + Lights - COMMA
+Camera Lock - QUOTE LEFT"
+vertical_alignment = 2
 
 [node name="FOV" type="LineEdit" parent="Selector/Cams/Camera/UI/UIFlat"]
 layout_mode = 0
-offset_left = 1854.0
-offset_top = 890.0
-offset_right = 1974.0
-offset_bottom = 940.0
-theme_override_font_sizes/font_size = 30
+offset_left = 1907.0
+offset_top = 918.0
+offset_right = 1974.06
+offset_bottom = 951.0
 text = "90"
 placeholder_text = "FOV"
+script = ExtResource("6_0j5y3")
 
 [node name="Zoom" type="LineEdit" parent="Selector/Cams/Camera/UI/UIFlat"]
 layout_mode = 0
-offset_left = 1854.0
-offset_top = 943.0
-offset_right = 1974.0
+offset_left = 1907.0
+offset_top = 956.0
+offset_right = 1974.06
 offset_bottom = 993.0
-theme_override_font_sizes/font_size = 30
 text = "55"
 placeholder_text = "Ortha Zoom"
+script = ExtResource("6_0j5y3")
 
 [node name="Label2" type="Label" parent="Selector/Cams/Camera/UI/UIFlat"]
 layout_mode = 0
-offset_left = 1793.0
-offset_top = 893.0
-offset_right = 1852.0
-offset_bottom = 938.0
-theme_override_font_sizes/font_size = 30
+offset_left = 1857.0
+offset_top = 921.0
+offset_right = 1916.0
+offset_bottom = 966.0
+theme_override_font_sizes/font_size = 20
 text = "FOV"
 
 [node name="Label3" type="Label" parent="Selector/Cams/Camera/UI/UIFlat"]
 layout_mode = 0
-offset_left = 1599.0
-offset_top = 946.0
-offset_right = 1853.0
-offset_bottom = 991.0
-theme_override_font_sizes/font_size = 30
+offset_left = 1729.0
+offset_top = 957.0
+offset_right = 1983.0
+offset_bottom = 1002.0
+theme_override_font_sizes/font_size = 20
 text = "Orthagonal Zoom"
 
-[node name="TextEdit" type="TextEdit" parent="Selector/Cams/Camera/UI/UIFlat"]
+[node name="CheckButton" type="CheckButton" parent="Selector/Cams/Camera/UI/UIFlat"]
 layout_mode = 0
-offset_left = 1910.0
-offset_top = 7.0
+offset_left = 1844.0
+offset_top = 884.0
+offset_right = 1974.0
+offset_bottom = 915.0
+text = "Controller"
+script = ExtResource("6_0j5y3")
+
+[node name="Map2Controls" type="Node2D" parent="Selector/Cams/Camera/UI/UIFlat"]
+
+[node name="Enabled" type="CheckBox" parent="Selector/Cams/Camera/UI/UIFlat/Map2Controls"]
+offset_left = 1952.0
+offset_top = 3.0
 offset_right = 1976.0
-offset_bottom = 71.0
-editable = false
+offset_bottom = 27.0
+script = ExtResource("6_0j5y3")
+
+[node name="FlippedX" type="CheckBox" parent="Selector/Cams/Camera/UI/UIFlat/Map2Controls"]
+offset_left = 1952.0
+offset_top = 30.5
+offset_right = 1976.0
+offset_bottom = 54.5
+script = ExtResource("6_0j5y3")
+
+[node name="FlippedZ" type="CheckBox" parent="Selector/Cams/Camera/UI/UIFlat/Map2Controls"]
+offset_left = 1952.0
+offset_top = 60.0
+offset_right = 1976.0
+offset_bottom = 84.0
+script = ExtResource("6_0j5y3")
+
+[node name="Label" type="Label" parent="Selector/Cams/Camera/UI/UIFlat/Map2Controls"]
+offset_left = 1868.0
+offset_top = 5.0
+offset_right = 1945.0
+offset_bottom = 83.0
+text = "ENABLED
+FLIPPED X
+FLIPPED Z"
+horizontal_alignment = 2
+
+[node name="X" type="LineEdit" parent="Selector/Cams/Camera/UI/UIFlat/Map2Controls"]
+offset_left = 1905.0
+offset_top = 84.0
+offset_right = 1972.06
+offset_bottom = 115.0
+text = "0"
+script = ExtResource("6_0j5y3")
+
+[node name="Y" type="LineEdit" parent="Selector/Cams/Camera/UI/UIFlat/Map2Controls"]
+offset_left = 1905.0
+offset_top = 121.0
+offset_right = 1972.06
+offset_bottom = 152.0
+text = "0"
+script = ExtResource("6_0j5y3")
+
+[node name="Z" type="LineEdit" parent="Selector/Cams/Camera/UI/UIFlat/Map2Controls"]
+offset_left = 1905.0
+offset_top = 159.0
+offset_right = 1972.06
+offset_bottom = 190.0
+text = "0"
+script = ExtResource("6_0j5y3")
+
+[node name="Label2" type="Label" parent="Selector/Cams/Camera/UI/UIFlat/Map2Controls"]
+offset_left = 1875.0
+offset_top = 82.0
+offset_right = 1897.0
+offset_bottom = 196.0
+theme_override_font_sizes/font_size = 24
+text = "X
+Y
+Z"
+horizontal_alignment = 2
 
 [node name="Lights" type="Node3D" parent="."]
 
@@ -197,3 +273,7 @@ transform = Transform3D(-1, 2.26267e-08, -8.44439e-08, 0, 0.965926, 0.258819, 8.
 transform = Transform3D(1.19249e-08, 0.258819, -0.965926, 0, 0.965926, 0.258819, 1, -3.08639e-09, 1.15186e-08, 0, 0, 0)
 
 [connection signal="item_selected" from="Selector/Cams/Camera/UI/UIFlat/OptionButton" to="." method="_on_option_button_item_selected"]
+[connection signal="toggled" from="Selector/Cams/Camera/UI/UIFlat/CheckButton" to="." method="_on_check_button_toggled"]
+[connection signal="toggled" from="Selector/Cams/Camera/UI/UIFlat/Map2Controls/Enabled" to="." method="_on_enabled_toggled"]
+[connection signal="toggled" from="Selector/Cams/Camera/UI/UIFlat/Map2Controls/FlippedX" to="." method="_on_flipped_x_toggled"]
+[connection signal="toggled" from="Selector/Cams/Camera/UI/UIFlat/Map2Controls/FlippedZ" to="." method="_on_flipped_z_toggled"]

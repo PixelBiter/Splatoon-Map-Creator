@@ -1,4 +1,4 @@
-[gd_resource type="MeshLibrary" load_steps=113 format=3 uid="uid://dsb0jcodo01pv"]
+[gd_resource type="MeshLibrary" load_steps=115 format=3 uid="uid://dsb0jcodo01pv"]
 
 [ext_resource type="ArrayMesh" uid="uid://dh8jgle2ued2d" path="res://EditorResources/GridMap/Basic/CornerBlock.obj" id="1_n6gt7"]
 [ext_resource type="ArrayMesh" uid="uid://cuglc65j54m5h" path="res://EditorResources/GridMap/Basic/MiddleBlock.obj" id="2_m22v6"]
@@ -12,8 +12,10 @@
 [ext_resource type="ArrayMesh" uid="uid://kv4c5shbmmke" path="res://EditorResources/GridMap/Walls/ShortSlopeWall.obj" id="7_uhlpg"]
 [ext_resource type="ArrayMesh" uid="uid://cwyu0kbbj8434" path="res://EditorResources/GridMap/ShortTriangle/SideBlockA.obj" id="7_xtjfr"]
 [ext_resource type="ArrayMesh" uid="uid://procqcohvehf" path="res://EditorResources/GridMap/ShortTriangle/SideBlockB.obj" id="8_8qiex"]
+[ext_resource type="ArrayMesh" uid="uid://b05wwemq3fsl6" path="res://EditorResources/GridMap/Walls/CornerWall.obj" id="8_nujwy"]
 [ext_resource type="ArrayMesh" uid="uid://1wtx5eihc7aw" path="res://EditorResources/GridMap/TriangleSlope/TriangleSlopeA.obj" id="8_onpn7"]
 [ext_resource type="ArrayMesh" uid="uid://bf8cyqhcbsbci" path="res://EditorResources/GridMap/Slope/CornerBlock.obj" id="9_6ov7b"]
+[ext_resource type="ArrayMesh" uid="uid://bdt8priam6kgk" path="res://EditorResources/GridMap/Walls/SliceWall.obj" id="9_8r4v0"]
 [ext_resource type="ArrayMesh" uid="uid://cile3aslltiiv" path="res://EditorResources/GridMap/TriangleSlope/TriangleSlopeB.obj" id="9_c7dcb"]
 [ext_resource type="ArrayMesh" uid="uid://b1uk20kiuhogq" path="res://EditorResources/GridMap/TriangleSlope/ShortTriangleSlope.obj" id="10_r5at5"]
 [ext_resource type="ArrayMesh" uid="uid://clmjxetway3hx" path="res://EditorResources/GridMap/Slope/CornerBlockA.obj" id="10_yahxu"]
@@ -739,13 +741,13 @@ item/103/shapes = []
 item/103/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/103/navigation_layers = 1
 item/104/name = "1"
-item/104/mesh = ExtResource("8_onpn7")
+item/104/mesh = ExtResource("8_nujwy")
 item/104/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/104/shapes = []
 item/104/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/104/navigation_layers = 1
 item/105/name = "2"
-item/105/mesh = ExtResource("9_c7dcb")
+item/105/mesh = ExtResource("9_8r4v0")
 item/105/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/105/shapes = []
 item/105/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
@@ -786,3 +788,15 @@ item/111/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/111/shapes = []
 item/111/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/111/navigation_layers = 1
+item/112/name = ""
+item/112/mesh = ExtResource("8_onpn7")
+item/112/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/112/shapes = []
+item/112/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/112/navigation_layers = 1
+item/113/name = ""
+item/113/mesh = ExtResource("9_c7dcb")
+item/113/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/113/shapes = []
+item/113/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/113/navigation_layers = 1

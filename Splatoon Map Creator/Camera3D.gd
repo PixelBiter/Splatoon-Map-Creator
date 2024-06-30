@@ -16,14 +16,6 @@ func _process(delta):
 	G.CamRot = global_rotation.y
 	if Held == true:
 		if G.Controller == false or (G.Controller == true and $Camera/UI/UIFlat.visible == false):
-			if Input.is_action_just_pressed("CompleteRotate"):
-				position.x = -position.x
-				position.z = -position.z
-				global_rotation_degrees.y -= 180
-			if Input.is_action_just_pressed("RESET"):
-				position = Vector3(0.315,6.437,5.37)
-				rotation = Vector3(25,0,0)
-				$Camera.rotation = Vector3.ZERO
 			if Input.is_action_pressed("Forward"):
 				position -= $Camera.global_transform.basis.z * 0.1
 			if Input.is_action_pressed("Backward"):
