@@ -149,7 +149,6 @@ func _inputs():
 			G.UsedCells.Ori += [G.ETileOrient]
 		if Input.is_action_just_pressed("BlockD"):
 			_deletecell(G.EPosition[0],G.EPositionLayer,G.EPosition[1])
-			$BuiltMap.set_cell_item(Vector3i(G.EPosition[0],G.EPositionLayer,G.EPosition[1]),-1,G.ETileOrient)
 
 	if Input.is_action_just_pressed("LightToggle"):
 		if $"Lights/Editor Lights".visible == true:
@@ -194,6 +193,8 @@ func _deletecell(Position0,Layer,Position1):
 			G.UsedCells.Type.remove_at(i)
 			G.UsedCells.Ori.remove_at(i)
 			break
+	$BuiltMap.set_cell_item(Vector3i(G.EPosition[0],G.EPositionLayer,G.EPosition[1]),-1,G.ETileOrient)
+	$CopyMap.set_cell_item(Vector3i(G.EPosition[0],G.EPositionLayer,G.EPosition[1]),-1,G.ETileOrient)
 
 
 func _on_option_button_item_selected(index):
